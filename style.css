@@ -195,7 +195,7 @@ body {
 .container__tit {
   margin-top: 30px;
   padding: 24px 30px;
-  width: 600px;
+  max-width: 600px;
   height: 240px;
   background-color: #d11a1a;
   font-size: 66px;
@@ -219,8 +219,8 @@ body {
   .container__tit {
     margin: 30px 0;
     padding: 24px 30px;
-    width: 600px;
-    height: 170px;
+    max-width: 600px;
+    height: 240px;
     background-color: #d11a1a;
     color: #fff;
     font-size: 66px;
@@ -229,7 +229,7 @@ body {
   }
 
   .tit {
-    width: 600px;
+    width: 440px;
     height: 290px;
   }
   
