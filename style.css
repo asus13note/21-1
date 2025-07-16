@@ -68,7 +68,7 @@ ul li {
 }
 
 img {
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
   vertical-align: middle;
 }
@@ -86,7 +86,7 @@ h6 {
 /* ================================== */
 body {
   font-family: "Roboto", sans-serif;
-  
+
 }
 
 .container {
@@ -111,7 +111,7 @@ body {
 
 .container__title {
   margin-top: 30px;
-  padding: 24px 30px;
+  padding: 24px 97px;
   max-width: 600px;
   height: 300px;
   border: 5px solid #9da6ff;
@@ -122,12 +122,14 @@ body {
   font-variant: small-caps;
   text-align: center;
 }
-@media (max-width:428px){
+
+@media (max-width:428px) {
   .container__title {
     max-width: 428px;
     height: 350px;
+    padding: 24px 15px;
   }
-  
+
   .container__subtitle {
     font-size: 35px;
   }
@@ -136,7 +138,7 @@ body {
 @media (max-width:390px) {
   .container__title {
     max-width: 390px;
-    padding: 7px 0;
+    padding: 24px 15px;
     flex-direction: column;
     align-items: center;
     font-size: 44px;
@@ -194,33 +196,36 @@ body {
 
 .container__tit {
   margin-top: 30px;
-  padding: 24px 30px;
+  padding: 24px 100px;
   max-width: 600px;
   height: 240px;
   background-color: #d11a1a;
   font-size: 66px;
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: #fff;
 }
 
 .tit {
   width: 660px;
-  height: 186px;
+  height: 290px;
 }
 
-@media (max-width:900px){
+@media (max-width:900px) {
   .tit {
-  height: 240px;
-}
+    height: 300px;
+  }
 }
 
-@media (max-width:800px) {
+@media (max-width:900px) {
   .container__tit {
     margin: 30px 0;
     padding: 24px 30px;
     max-width: 600px;
-    height: 240px;
+    height: 290px;
     background-color: #d11a1a;
     color: #fff;
     font-size: 66px;
@@ -232,16 +237,28 @@ body {
     width: 440px;
     height: 290px;
   }
-  
+
+  .tit-tit {
+    width: 380px;
+    height: 180px;
+  }
+
 }
 
-@media (max-width:428px){
+@media (max-width:428px) {
   .container__tit {
     width: 420px;
     font-size: 60px;
+    height: 260px;
   }
-  .tita{
+
+  .tita {
     height: 240px;
+  }
+
+  .tit-tit {
+    width: 380px;
+    height: 180px;
   }
 }
 
@@ -267,13 +284,14 @@ body {
 
   .tit-tit {
     width: 380px;
-    height: 190px;
+    height: 180px;
   }
 
   .tita {
     width: 380px;
     height: 250px;
   }
+
   img {
     width: 180px;
   }
